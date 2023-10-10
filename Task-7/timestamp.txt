@@ -1,0 +1,15 @@
+import datetime
+ct = datetime.datetime.now()
+print("current time:-", ct)
+ts = ct.timestamp()
+print("timestamp:-", ts)
+ts_int = int(ts)
+ts_format = datetime.datetime.utcfromtimestamp(ts_int)
+print(ts_format)
+
+
+
+
+
+
+
